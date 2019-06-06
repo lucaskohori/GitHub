@@ -1,14 +1,19 @@
 <?php 
 
-$conn = new PDO("mysql:host=localhost;dbname=artcar;charset=utf8", "root", "");
+include( "conexao.php" );
 
-$stmt = $conn->prepare("SELECT nome, telefone 
-	FROM tb_cliente 
-	WHERE (nome LIKE '%rafael%')");
+$sql="SELECT nome, telefone FROM tb_cliente WHERE nome LIKE '%lucas%'";
+$result=mysqli_query($conexao, $sql);
+$row=mysqli_fetch_assoc($result);
 
- $stmt->execute();
- $enderecos = $stmt->fetchAll();
+//echo($row["nome"]);
 
+/*foreach($result as $row) {
+
+  echo $row["nome"] . "<br/>";
+  echo $row["telefone"] . "<br/>";
+
+}*/
 
 
 /*foreach($enderecos as $item)
@@ -31,12 +36,12 @@ $stmt = $conn->prepare("SELECT nome, telefone
   <table border="1">
     <tr>
     <th>Nome</th>    
-    <th>Telefone</th>   
+    <th>telefone</th>   
     </tr>
-    <?php foreach($enderecos as $item) : ?>
+    <?php foreach($result as $row) : ?>
     <tr>
-      <td><?php echo $item["nome"]?> </td>      
-      <td><?php echo $item["telefone"]?> </td>      
+      <td><?php echo $row["nome"]?> </td>      
+      <td><?php echo $row["telefone"]?> </td>      
     </tr>
     <?php endforeach ?>
     
@@ -46,4 +51,3 @@ $stmt = $conn->prepare("SELECT nome, telefone
   </table>
 </body>
 </html>
-
