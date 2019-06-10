@@ -1,56 +1,18 @@
 <?php 
-
 include( "conexao.php" );
-
 $sql="SELECT nome, telefone FROM tb_cliente WHERE nome LIKE '%lucas%'";
 $result=mysqli_query($conexao, $sql);
 $row=mysqli_fetch_assoc($result);
-
-/* 
-
-$a = $_GET['a'];
- 
-
-if ($a == "buscar") {
- 
-  
-  $palavra = trim($_POST['palavra']);
- 
-  $sql = mysql_query("SELECT * FROM OrdemServico WHERE nome LIKE '%".$palavra."%' ORDER BY nome");
- 
-  $numRegistros = mysql_num_rows($sql);
- 
-
-  if ($numRegistros != 0) {
-
-    while ($produto = mysql_fetch_object($sql)) {
-        echo "Nome: $dados[nome]<br />";
-        echo "Ordem de Serviço: $dados[OrdemServico] Reais<br />";
-        echo "<hr>"; "<br />";
-    }
-
-  } else {
-    echo "Nenhum cliente foi encontrado com a palavra ".$palavra."";
-  }
-}*/
-
-
 //echo($row["nome"]);
-
 /*foreach($result as $row) {
-
   echo $row["nome"] . "<br/>";
   echo $row["telefone"] . "<br/>";
-
 }*/
-
-
 /*foreach($enderecos as $item)
 {
    echo $item["nome"]."</br>";
    echo $item["telefone"]."</br>";
 }*/
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

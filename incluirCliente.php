@@ -7,45 +7,16 @@ $nome 				=$_POST['nome'];
 $inscMuni			=$_POST['inscMuni'];
 $inscEst			=$_POST['inscEst'];
 $cep 				=$_POST['cep'];
+$logradouro 		=$_POST['logradouro'];
+$bairro 		    =$_POST['bairro'];
+$cidade 		    =$_POST['cidade'];
+$uf 		    	=$_POST['uf'];
 $telefone 			=$_POST['telefone'];
 $email 				=$_POST['email'];
 $numero 			=$_POST['numero'];
 $complemento 		=$_POST['complemento'];
 
-
-function getCEP(int $cep) {		
-
-		$ch = curl_init();
-
-		curl_setopt($ch, CURLOPT_URL, "http://viacep.com.br/ws/$cep/json/");
-
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-
-		$data = json_decode(curl_exec($ch), true);
-
-		curl_close($ch);
-
-		return $data;
-
-}
-
-$data = getCEP($cep);
-//var_dump($data);
-
-if ($data == NULL) {
-
-echo "CEP não existente!";
-
-} else {
-
-	$logradouro = ($data['logradouro']);		
-	$bairro = ($data['bairro']);
-	$cidade = ($data['localidade']);		
-	$cep = ($data['cep']);
-	$uf = ($data['uf']);
-
-        	   
+   	  
 
 	$cep = str_replace("-", "", $cep);
 
@@ -59,11 +30,8 @@ echo "CEP não existente!";
 
     $conexao->close();
 
-    header("Location: /ArtCar/cadastroCliente.html");
+    header("Location: /ArtCar/incluir.html");
     exit;
-
- }
-
 
 
 ?>

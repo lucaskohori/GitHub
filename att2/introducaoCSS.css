@@ -1,0 +1,24 @@
+body {
+  background:white;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  font-family: 'Pacifico', cursive;
+  color:#01579B;
+  font-size:36px;
+  }
+table {
+  width:800px;
+  margin:auto;
+}
+th {
+  background:#01579B;
+  color:#FFF;
+  text-align:left;
+}
+tr:nth-child(even) {
+  background:yellow;
+}
+th, td {
+  padding:5px 10px 5px 10px;
+  }

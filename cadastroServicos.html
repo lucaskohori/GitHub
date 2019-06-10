@@ -49,88 +49,29 @@
 	<tr bgcolor="#D3DCE6">
 	<td width="15" valign="top">&nbsp;</td>
 	<td width="198"><img src="file:///C|/Program%20Files%20(x86)/Macromedia/Dreamweaver%208/Configuration/BuiltIn/StarterPages/mm_spacer.gif" alt="" width="35" height="1" border="0" /></td>
-	<td width="612" valign="top"><p>&nbsp;</p>
-	  
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<td width="612" valign="top"><p>&nbsp;</p>  
+		
 
-	  <form id="form1" name="form1" method="post" action="incluirCliente.php">
+	  <form id="form1" name="form1" method="post" action="cadastroServicos.php">
       
-      <label for="cpf_cnpj">CPF/CNPJ
-	  <input id="cpf_cnpj" name="cpf_cnpj" type="text" required/>	      
+      <label for="codServico">Código:
+	  <input id="codServico" name="codServico" type="text" required/>	      
       </label>
 	  	  <br />
-	      <br />
-	  <label for="nome">Nome
-	  <input id="nome" name="nome" type="text" />
-	  </label>
-	  	  <br />
-	      <br />
+	      <br />	  
 	  
-	  <label for="inscMuni">Inscrição Municipal
-	  <input id="inscMuni" name="inscMuni" type="text" />
-	  </label>
-	  	  <br />
-	      <br />
-	  
-	  <label for="inscEst">Inscrição Estadual
-	  <input id="inscEst" name="inscEst" type="text" />
-	  </label>
-	  	  <br />
-	      <br />
-	  
-	  <label for="telefone">Telefone
-	  <input id="telefone" name="telefone" type="text" />
+	  <label for="descricao">Descrição:
+	  <textarea name="descricao" cols="30" rows="2"></textarea>
 	  </label>
 	  	  <br />
 	      <br />
 
-	  <label for="email">Email
-	  <input id="email" name="email" type="email" />
+	  <label for="vlServico">Valor:
+	  <input id="vlServico" name="vlServico" type="float" step="0.01" />
 	  </label>
 	  	  <br />
 	      <br />
 
-	  <label for="cep">CEP
-	  <input id="cep" name="cep" type="text" required />
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="logradouro">Rua
-	  <input id="logradouro" name="logradouro" type="text" required />
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="numero">Número
-	  <input id="numero" name="numero" type="text"/>
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="complemento">Complemento
-	  <input id="complemento" name="complemento" type="text"/>
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="bairro">Bairro
-	  <input id="bairro" name="bairro" type="text" required />
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="cidade">Cidade
-	  <input id="cidade" name="cidade" type="text" required />
-	  </label>
-	  	  <br />
-	      <br />
-
-	  <label for="uf">Estado
-	  <input id="uf" name="uf" type="text" required />
-	  </label>
-	  	  <br />
-	      <br />
 	    <p>
           <input type="submit" name="Submit" value="Gravar Dados" />
         </p>
@@ -150,36 +91,6 @@
 	<td width="458">&nbsp;</td>
   </tr>
 </table>
-
-<script type="text/javascript">
-		$("#cep").focusout(function(){
-			//Início do Comando AJAX
-			$.ajax({
-				//O campo URL diz o caminho de onde virá os dados
-				//É importante concatenar o valor digitado no CEP
-				url: 'https://viacep.com.br/ws/'+$(this).val()+'/json/unicode/',
-				//Aqui você deve preencher o tipo de dados que será lido,
-				//no caso, estamos lendo JSON.
-				dataType: 'json',
-				//SUCESS é referente a função que será executada caso
-				//ele consiga ler a fonte de dados com sucesso.
-				//O parâmetro dentro da função se refere ao nome da variável
-				//que você vai dar para ler esse objeto.
-				success: function(resposta){
-					//Agora basta definir os valores que você deseja preencher
-					//automaticamente nos campos acima.
-					$("#logradouro").val(resposta.logradouro);
-					$("#complemento").val(resposta.complemento);
-					$("#bairro").val(resposta.bairro);
-					$("#cidade").val(resposta.localidade);
-					$("#uf").val(resposta.uf);
-					//Vamos incluir para que o Número seja focado automaticamente
-					//melhorando a experiência do usuário
-					$("#numero").focus();
-				}
-			});
-		});
-	</script>
 
 </body>
 </html>
