@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Commerce: Shopping Cart" />
+	<infoitem key="mm_new_doc_desc" value="A layout for a shopping cart's contents, with thumbnail images, prices, and buttons. - ACCESSIBLE" />
+</info>

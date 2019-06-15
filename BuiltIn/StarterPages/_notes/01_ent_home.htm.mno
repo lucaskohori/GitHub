@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Entertainment - Home Page" />
+	<infoitem key="mm_new_doc_desc" value="Home Page - A great starting place for your website, including text, links, and images." />
+	<infoitem key="mm_new_doc_external_command" value="Commands/mm_pagedesigns.htm" />
+	<infoitem key="mm_new_doc_preview" value="ent_home.gif" />
+
+</info>
+

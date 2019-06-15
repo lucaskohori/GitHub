@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Data: Figures List" />
+	<infoitem key="mm_new_doc_desc" value="A layout for presenting numerical data for a list of items. - ACCESSIBLE" />
+</info>

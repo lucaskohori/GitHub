@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="frameset" />
+	<infoitem key="mm_new_doc_name" value="Fixed Right, Nested Top" />
+	<infoitem key="mm_new_doc_preview" value="RightNestedTop.gif" />
+	<infoitem key="mm_new_doc_desc" value="A frameset with a fixed-size right frame and a nested top frame." />
+</info>

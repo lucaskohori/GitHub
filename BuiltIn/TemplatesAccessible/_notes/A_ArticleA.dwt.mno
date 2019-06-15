@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Text: Article A" />
+	<infoitem key="mm_new_doc_desc" value="A three-column layout for two articles and a sidebar, with a small image. - ACCESSIBLE" />
+</info>

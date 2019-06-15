@@ -1,5 +1,6 @@
 <?php
 
+
 include( "conexao.php" );
 
 $cpf_cnpj 			=$_POST['cpf_cnpj'];
@@ -17,6 +18,7 @@ $numero 			=$_POST['numero'];
 $complemento 		=$_POST['complemento'];
 
 
+
 $cep = str_replace("-", "", $cep);
 
 $obter_cep = mysqli_query($conexao, "SELECT cep FROM tb_endereco WHERE cep='$cep'");
@@ -32,15 +34,13 @@ if (mysqli_num_rows($obter_cep) == 0) {
 
 }
 
-	$cliente = "UPDATE tb_cliente SET cpf_cnpj='$cpf_cnpj', nome='$nome', inscMuni='$inscMuni', inscEst='$inscEst', cep='$cep', telefone='$telefone', email='$email', numero='$numero', complemento='$complemento' WHERE cpf_cnpj='$cpf_cnpj'";
+	$cliente = "UPDATE tb_cliente SET nome='$nome', inscMuni='$inscMuni', inscEst='$inscEst', cep='$cep', telefone='$telefone', email='$email', numero='$numero', complemento='$complemento' WHERE cpf_cnpj='$cpf_cnpj'";
 
 	$update_cliente = mysqli_query($conexao, $cliente);
 
 $conexao->close();
 
- 	header("Location: /ArtCar/alterar.html");
+ 	header("Location: /ArtCar/index.php");
     exit;
-
-
 
 ?>

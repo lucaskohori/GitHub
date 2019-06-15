@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Data: Specifications" />
+	<infoitem key="mm_new_doc_desc" value="A layout for brief specifications for a single item, with an image. - ACCESSIBLE" />
+</info>

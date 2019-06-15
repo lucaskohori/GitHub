@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Image: Thumbnail Grid" />
+	<infoitem key="mm_new_doc_desc" value="A layout for a set of thumbnail images in a three-column grid. - ACCESSIBLE" />
+</info>

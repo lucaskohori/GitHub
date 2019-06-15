@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="css" />
+	<infoitem key="mm_new_doc_name" value="Full Design: Accessible" />
+    <infoitem key="mm_new_doc_preview" value="Accessible_Design.gif" />
+	<infoitem key="mm_new_doc_desc" value="The Full Design: Arial style sheet rewritten to use accessible measurements (ems)." />
+</info>

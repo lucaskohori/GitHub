@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="UI: Register (Basic)" />
+	<infoitem key="mm_new_doc_desc" value="A registration form, with fields including user name, password, name, and email. - ACCESSIBLE" />
+</info>

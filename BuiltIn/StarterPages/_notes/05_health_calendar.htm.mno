@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Health &amp; Nutrition - Calendar" />
+	<infoitem key="mm_new_doc_desc" value="Calendar - Perfect for listing and describing upcoming events, meetings and classes. Layout is customizable." />
+	<infoitem key="mm_new_doc_external_command" value="Commands/mm_pagedesigns.htm" />
+	<infoitem key="mm_new_doc_preview" value="health_calendar.gif" />
+</info>
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="stationery" />
+	<infoitem key="mm_new_doc_name" value="Personal Training - Product Page" />
+	<infoitem key="mm_new_doc_desc" value="Product Page - Add images, descriptions and PayPal functionality to easily promote and sell your products.  Layout is customizable." />
+	<infoitem key="mm_new_doc_external_command" value="Commands/mm_pagedesigns.htm" />
+	<infoitem key="mm_new_doc_preview" value="pt_product.gif" />
+</info>
+

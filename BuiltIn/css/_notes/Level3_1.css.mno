@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="mm_new_doc_type" value="css" />
+	<infoitem key="mm_new_doc_name" value="Full Design: Arial, Blue/Green/Gray" />
+	<infoitem key="mm_new_doc_desc" value="A style sheet for a unified page design in blues, greens, and grays, with text in Arial." />
+  <infoitem key="mm_new_doc_preview" value="Level3_1.gif" />
+</info>
