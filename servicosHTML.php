@@ -23,7 +23,7 @@ $row=mysqli_fetch_assoc($result);
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	<tr bgcolor="#26354A">
 	<td width="15" nowrap="nowrap"><img src="/ArtCar/BuiltIn/StarterPages/mm_spacer.gif" alt="" width="15" height="1" border="0" /></td>
-	<td height="70" colspan="2" class="logo" nowrap="nowrap">Serviços  <span class="tagline"></td>
+	<td height="70" colspan="2" class="logo" nowrap="nowrap">SERVIÇOS  <span class="tagline"></td>
 	<td width="458">&nbsp;</td>
 	</tr>
 
@@ -41,7 +41,7 @@ $row=mysqli_fetch_assoc($result);
 	<table border="0" cellpadding="0" cellspacing="0" id="navigation">
         <tr>
           <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/index.php">HOME</a></td>
-          <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/cadastroServicosHTML.php">Cadastrar novo Serviço</a></td>           
+          <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/cadastroServicosHTML.php">CADASTRAR NOVO SERVIÇO</a></td>           
         </tr>
       </table>	</td>
 	<td width="458">&nbsp;</td>

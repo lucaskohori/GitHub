@@ -53,7 +53,7 @@ $row=mysqli_fetch_assoc($result);
 	<table border="0" cellpadding="0" cellspacing="0" id="navigation">
         <tr>
           <td align="center" nowrap="NOWRAP" background="index.php" class="navText"><a href="index.php">HOME</a></td>
-          <td align="center" nowrap="NOWRAP" background="index.php" class="navText"><a href="/ArtCar/cadastroServicosHTML.php">VOLTAR</a></td>
+          <td align="center" nowrap="NOWRAP" background="index.php" class="navText"><a href="/ArtCar/servicosHTML.php">VOLTAR</a></td>
         </tr>
       </table>	</td>
 	<td width="458">&nbsp;</td>

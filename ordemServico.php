@@ -70,7 +70,7 @@ if ($servico5 != 0) {
 
 $conexao->close();
 
-header("Location: /ArtCar/view.php");
+header("Location: /ArtCar/index.php");
 exit;
 
 }

@@ -17,7 +17,7 @@ $vlServico = (float)$vlServico;
 
     $conexao->close();
 
-    header("Location: /ArtCar/cadastroServicosHTML.php");
+    header("Location: /ArtCar/servicosHTML.php");
     exit;
 
 

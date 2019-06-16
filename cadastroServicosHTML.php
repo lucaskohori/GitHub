@@ -28,7 +28,8 @@
 	<td colspan="2" height="24">
 	<table border="0" cellpadding="0" cellspacing="0" id="navigation">
         <tr>
-          <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/index.php">HOME</a></td>                     
+          <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/index.php">HOME</a></td> 
+          <td align="center" nowrap="NOWRAP" background="index.html" class="navText"><a href="/Artcar/servicosHTML.php">VOLTAR</a></td>                    
         </tr>
       </table>	</td>
 	<td width="458">&nbsp;</td>

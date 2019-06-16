@@ -18,7 +18,7 @@ $update_servico = mysqli_query($conexao, $servico);
 
 $conexao->close();
 
- 	header("Location: /ArtCar/cadastroServicosHTML.php");
+ 	header("Location: /ArtCar/servicosHTML.php");
     exit;
 
 ?>

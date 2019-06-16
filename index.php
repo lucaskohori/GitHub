@@ -54,9 +54,9 @@ $row=mysqli_fetch_assoc($result);
 	<td colspan="3" height="24">
 	<table border="0" cellpadding="0" cellspacing="0" id="navigation">
         <tr>
-          <td align="center" nowrap background="PROF-CADAST.html" class="navText"><a href="/ArtCar/incluir.html" class="style7">Cadastro de Clientes</a></td>         
+          <td align="center" nowrap background="PROF-CADAST.html" class="navText"><a href="/ArtCar/incluir.html" class="style7">CADASTRO DE CLIENTES</a></td>         
           <td align="center" nowrap background="CadastroPeca.html" class="navText"><a href="/ArtCar/servicosHTML.php" class="style1">SERVIÇOS </a></td>          
-          <td class="navText" align="center" nowrap><a href="contato.html" class="style1">Contato</a></td>
+          <td class="navText" align="center" nowrap><a href="contato.html" class="style1">CONTATO</a></td>
         </tr>
       </table>	</td>
 	<td width="234">&nbsp;</td>
